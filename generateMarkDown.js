@@ -1,7 +1,7 @@
 // we need to return a string form of the readme
 
 function generateMarkdown(data) {
-    return (
+return (
 `
 #${data.title}
 
@@ -36,7 +36,7 @@ ${data.installation}
 ${data.usage}
 
 ## License
-![license](https://img.shields.io/badge/license-${data.license}-blue.svg)
+This project is licensed under the ${data.license} license
 
 ${data.license}
 
